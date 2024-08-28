@@ -15,8 +15,8 @@ console.log("Physics Marks" + " " + physics_marks);
 console.log("Chemistry Marks" + " " + chemistry_marks);
 
 if (math_marks >= 25 || urdu_marks >= 25 || physics_marks >= 25 || chemistry_marks >= 25) {
-    console.log("Congratulation You scored" + " " + obtained_marks + "out of" + " " + total_marks + " " + "marks.");
+    console.log("Result Congratulation You scored" + " " + obtained_marks + "out of" + " " + total_marks + " " + "marks.");
     console.log("You Got " + percentage + "%");
 } else {
-    console.log("You Fail");
+    console.log("Result You Fail");
 };
