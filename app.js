@@ -20,3 +20,15 @@ if (math_marks >= 25 || urdu_marks >= 25 || physics_marks >= 25 || chemistry_mar
 } else {
     console.log("Result You Fail");
 };
+
+if (percentage == 100 || percentage == 90) {
+  console.log("Your Grade Is (A+)");
+} else if (percentage == 80 || percentage == 70) {
+  console.log("Your Grade Is (A)");
+} else if (percentage == 60 || percentage == 50) {
+  console.log("Your Grade Is (B)");
+} else if (percentage == 40 || percentage == 30) {
+  console.log("Your Grade Is (C)");
+}else{
+    console.log("Your Grade Is (F)");
+}
