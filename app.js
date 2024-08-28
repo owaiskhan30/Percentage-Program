@@ -19,8 +19,4 @@ if (math_marks >= 25 || urdu_marks >= 25 || physics_marks >= 25 || chemistry_mar
     console.log("You Got " + percentage + "%");
 } else {
     console.log("You Fail");
-}
-
-
-
-
+};
