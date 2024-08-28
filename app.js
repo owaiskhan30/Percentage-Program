@@ -25,7 +25,7 @@ if (percentage == 100 || percentage >= 90) {
   console.log("Your Grade Is (A)");
 } else if (percentage >= 60 || percentage >= 50) {
   console.log("Your Grade Is (B)");
-} else if (percentage >= 40 || percentage >= 30) {
+} else if (percentage >= 40 || percentage >= 25) {
   console.log("Your Grade Is (C)");
 } else{
     console.log("Your Grade Is (F)");
