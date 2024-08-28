@@ -4,9 +4,7 @@ var physics_marks = +prompt("Enter Your Physics Marks");
 var chemistry_marks = +prompt("Enter Your Chemistry Marks");
 
 var total_marks = 400;
-
 var obtained_marks = math_marks + urdu_marks + physics_marks + chemistry_marks;
-
 var percentage = (obtained_marks / total_marks) * 100;
 
 console.log("Math Marks" + " " + math_marks);
@@ -21,14 +19,14 @@ if (math_marks >= 25 || urdu_marks >= 25 || physics_marks >= 25 || chemistry_mar
     console.log("Result You Fail");
 };
 
-if (percentage == 100 || percentage == 90) {
+if (percentage == 100 || percentage >= 90) {
   console.log("Your Grade Is (A+)");
-} else if (percentage == 80 || percentage == 70) {
+} else if (percentage >= 80 || percentage >= 70) {
   console.log("Your Grade Is (A)");
-} else if (percentage == 60 || percentage == 50) {
+} else if (percentage >= 60 || percentage >= 50) {
   console.log("Your Grade Is (B)");
-} else if (percentage == 40 || percentage == 30) {
+} else if (percentage >= 40 || percentage >= 30) {
   console.log("Your Grade Is (C)");
-}else{
+} else{
     console.log("Your Grade Is (F)");
 }
